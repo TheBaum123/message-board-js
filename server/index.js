@@ -5,7 +5,7 @@ const fs = require("fs")
 
 require("dotenv").config()
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 0
 
 const msgPath = path.join(__dirname, "..", "messages")
 
